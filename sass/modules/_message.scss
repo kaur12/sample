@@ -1,0 +1,66 @@
+.messageForm{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background: whitesmoke;
+    padding: 7px 0;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.15);
+
+    .textMsg{
+        border: none;
+        border-bottom: solid 1px black;
+        font-family: 'Sen', sans-serif;
+        background: rgba(0,0,0,0);
+        font-size: 18px;
+        flex-grow: 1;
+        
+    }
+
+    button{
+        background: rgba(0,0,0,0);
+        border: none;
+        font-size: 22px;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+}
+
+
+.messages{
+    min-height: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 70px;
+    
+    .messageList{
+        margin-top: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        p{
+            display: block;
+            align-self: flex-end;
+            margin-top: auto;
+            color: black;
+            margin: 5px;
+            padding: 10px 13px;
+            max-width: 90%;
+            border-radius: 10px;
+            margin-left: auto;
+            background-color: whitesmoke;
+        }
+
+        .my-message{
+            background-color: rgb(83, 143, 255);
+            color: white;
+            margin-left: 5px;
+            margin-right: auto;
+        }
+    }
+}
